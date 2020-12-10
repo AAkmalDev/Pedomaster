@@ -1,6 +1,6 @@
-## Pedomaster
+# Pedomaster
 
-<pre Pedometer by Akmal Abdreimov </pre>
+#### Pedometer by Akmal Abdreimov
 
 ## Screenshot
 
