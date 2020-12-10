@@ -1,8 +1,8 @@
-### Pedomaster
+## Pedomaster
 
-##### Pedometer by Akmal Abdreimov
+### Pedometer by Akmal Abdreimov
 
-### Screenshot
+## Screenshot
 
 ![images1](https://raw.githubusercontent.com/AAkmalDev/Pedomaster/main/img1.jpg)
 
