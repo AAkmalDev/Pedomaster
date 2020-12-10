@@ -86,17 +86,19 @@ class MainActivity : AppCompatActivity(), SensorEventListener, StepListener {
             }
         }
 
-        start_btn.setOnLongClickListener {
-            isStart = true
-            instance.stopChronometer()
-            numSteps = 0
-            forKm(0)
-            forkkal(0)
-            km_size.text = "0.00"
-            kkal.text = 0.0.toString()
-            text_start.text = 0.toString()
-            castText.text = "Start"
-            Toast.makeText(this, "Success Reset Data", Toast.LENGTH_SHORT).show()
+        start_btn.setOnLongClickListener { 
+            if (isStart) {
+                instance.stopChronometer()
+                numSteps = 0
+                forKm(0)
+                forkkal(0)
+                km_size.text = "0.00"
+                kkal.text = 0.0.toString()
+                text_start.text = 0.toString()
+                Toast.makeText(this, "Success Reset Data", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(this, "This funcsion only work start", Toast.LENGTH_SHORT).show()
+            }
             true
         }
     }
